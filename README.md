@@ -11,6 +11,7 @@ Manuel Sánchez - 1104904
 
 
 Querys: 
+
 query GetAllUsers{ users { id name age nationality friends { name age } } }
 
 query GetUser($userId: ID!) { user(id: $userId) { name age nationality friends { name } } }
